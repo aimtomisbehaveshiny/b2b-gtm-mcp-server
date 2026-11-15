@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "b2b-gtm-intelligence": {
+      "type": "streamable-http",
+      "url": "https://aimtomisbehave--b2b-gtm-mcp-server.apify.actor/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_APIFY_TOKEN"
+      }
+    }
+  }
+}
