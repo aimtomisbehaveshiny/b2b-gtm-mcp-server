@@ -1,0 +1,12 @@
+runtime: container
+startCommand:
+  type: http
+  configSchema:
+    type: object
+    required:
+      - apifyToken
+    properties:
+      apifyToken:
+        type: string
+        title: Apify API Token
+        description: Your Apify API token for hosted Standby MCP billing
